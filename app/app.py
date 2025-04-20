@@ -3,8 +3,8 @@ from wakeonlan import send_magic_packet
 from datetime import datetime
 
 # === CONFIG ===
-MAC_ADDRESS = "00:11:22:33:44:55"     # Zielgerät MAC-Adresse
-WAIT_MINUTES = 60                     # Wie lange der Container laufen soll
+MAC_ADDRESS = "BC-FC-E7-1A-CC-6F"     # Zielgerät MAC-Adresse
+WAIT_MINUTES = 3                    # Wie lange der Container laufen soll
 
 def main():
     print(f"[{datetime.now()}]  Sende Wake-on-LAN an {MAC_ADDRESS}...")

@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  wake-on-lan:
+    build: .
+    container_name: wake-on-lan
+    restart: unless-stopped

@@ -1,2 +1,2 @@
-15 15 * * * root python /app/main.py >> /var/log/cron.log 2>&1
+20 15 * * * root python /app/main.py
 

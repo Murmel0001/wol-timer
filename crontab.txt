@@ -1,2 +1,2 @@
-* * * * * root python /app/main.py
+* * * * * root python main.py
 

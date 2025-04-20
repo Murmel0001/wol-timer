@@ -20,4 +20,4 @@ COPY crontab.txt /etc/cron.d/wol-cron
 RUN chmod 0644 /etc/cron.d/wol-cron
 
 # Cron im Vordergrund starten, Logs in stdout
-CMD ["cron", "-f", "-L", "8"]
+CMD ["cron", "-f"]
